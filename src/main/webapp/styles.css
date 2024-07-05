@@ -1,0 +1,174 @@
+/* styles.css */
+
+/* General styling */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f9;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #2C3E50;
+	padding: 5px 3;
+	color: white;
+	text-align: center;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+.header .logo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.header nav {
+	margin: 10px 0;
+}
+
+.header nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+}
+
+.header nav a:hover {
+	text-decoration: underline;
+}
+
+/* Container styling */
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	background: #ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin-top: 40px;
+}
+
+/* Hero section styling */
+.hero {
+	background-image: url('images/hero-background.jpg');
+	background-size: cover;
+	padding: 60px 20px;
+	color: white;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.hero .btn {
+	padding: 1px 10px;
+	background-color: #27AE60;
+	color: white;
+	font-size:15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.hero .btn:hover {
+	background-color: #218c53;
+}
+
+.hero .btn-secondary {
+	background-color: #2980B9;
+}
+
+.hero .btn-secondary:hover {
+	background-color: #1e6390;
+}
+
+/* Form styling */
+form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+	color: #555;
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="submit"]
+	{
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0 16px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type="submit"] {
+	background-color: #27AE60;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #218c53;
+}
+
+/* Link styling */
+a {
+	color: #27AE60;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Message styling */
+.message {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.message.error {
+	color: red;
+}
+
+.message.success {
+	color: green;
+}
+
+/* List styling */
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul li {
+	background: #e2f7e2;
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+/* Footer styling */
+.footer {
+	background-color: #2C3E50;
+	color: white;
+	text-align: center;
+	padding: 0px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
